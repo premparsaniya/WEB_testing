@@ -10,18 +10,20 @@ const Finish = () => {
                         them well!</span>
                 </div>
             </div>
-            <div className='w-[65%] h-[100dvh] md:bg-[length:400px_400px] xl:bg-[length:700px_700px] xl:bg-center_left md:bg-left right-div flex flex-col justify-start'>
-                <div className='w-full h-[166px] border-b border-dashed border-b-primary flex justify-center items-end flex-col'>
+            {/* md:bg-[length:400px_400px] xl:bg-[length:700px_700px] xl:bg-center_left md:bg-left */}
+            <div className='w-[70%] h-[100dvh] md:bg-[length:400px_400px] xl:bg-[length:700px_700px] xl:bg-center_left md:bg-left  right-div flex flex-col justify-start'>
+                <div className='w-full h-[166px] flex justify-center items-end flex-col'>
                     <div>
                         <img src={LOGO} alt="img" className='xl:mr-20 md:mr-5' />
                     </div>
                 </div>
-                <div className='h-[60%] mt-10 md:ml-1'>
+                <div className='border-b border-dashed border-primary' />
+                <div className='h-[65%] mt-10 md:ml-1'>
                     <span className='xl:text-5xl md:text-4xl font-[400] text-primary'>
-                        Soon, you’ll be playing a <br />
-                        crucial role in advancing<br />
-                        the <span className='font-bold'>
-                            treatment of<br />
+                        Soon, you’ll be playing a
+                        crucial role in advancing
+                        the <br /> <span className='font-bold'>
+                            treatment of
                             rare diseases in india.
                         </span>
                     </span>
