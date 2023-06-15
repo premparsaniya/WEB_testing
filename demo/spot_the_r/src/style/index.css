@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Libre Franklin";
+}
+
+.p-div {
+  background: radial-gradient(45% 45% at 50% 50%, #f8ecf5 32.84%, #c170ae 100%);
+}
+
+.home-header {
+  background-image: url("../assets/home.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.left-div {
+  background-image: url("../assets/bg-vector.png");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+.right-div {
+  background-image: url("../assets/middle-vector.svg");
+  background-repeat: no-repeat;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  gap: 0px;
+  justify-items: center;
+}
