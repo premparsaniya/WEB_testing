@@ -34,7 +34,7 @@ const home = () => {
 
     useEffect(() => {
         if (indexOne !== undefined && indexTwo !== undefined && indexThree !== undefined) {
-            navigate('/demo/spot_the_r/finish');
+            navigate('/finish');
             setUpdateDataArr([]);
         }
     }, [indexOne, indexTwo, indexThree])

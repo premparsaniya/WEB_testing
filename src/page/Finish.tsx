@@ -35,7 +35,7 @@ const Finish = () => {
                             Outer Ring Road, Bangalore 560045, India.vv</span>
                     </div>
                     <div className='xl:mr-20 md:mr-5'>
-                        <a href='/demo/spot_the_r/' className={`text-3xl font-bold w-56 flex justify-center items-center h-20 border-4 rounded-lg border-primary text-primary bg-[#ECD8E1]`}>Play Again</a>
+                        <a href='/' className={`text-3xl font-bold w-56 flex justify-center items-center h-20 border-4 rounded-lg border-primary text-primary bg-[#ECD8E1]`}>Play Again</a>
                     </div>
                 </div>
             </div>
